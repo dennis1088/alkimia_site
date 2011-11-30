@@ -14,5 +14,4 @@ This project is created for work on the LSU Alkimia Chapter website only.  Modif
 * [Ruby on Rails Tutorial](http://ruby.railstutorial.org/)
 * [CSS Reference](http://www.w3schools.com/cssref/default.asp)
 * [JQuery](http://jquery.com/)
-
-
+* [Image Place Holders](http://placehold.it/)
