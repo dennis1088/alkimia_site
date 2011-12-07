@@ -9,9 +9,10 @@ This project is created for work on the LSU Alkimia Chapter website only.  Modif
 
 ## References ##
 
-* [Git Reference](http://gitref.org/index.html)
-* [ProGit](http://progit.org/book/)
-* [Ruby on Rails Tutorial](http://ruby.railstutorial.org/)
-* [CSS Reference](http://www.w3schools.com/cssref/default.asp)
-* [JQuery](http://jquery.com/)
-* [Image Place Holders](http://placehold.it/)
+* [Git Reference](http://gitref.org/index.html)  
+* [ProGit](http://progit.org/book/)  
+* [Ruby on Rails Tutorial](http://ruby.railstutorial.org/)  
+* [CSS Reference](http://www.w3schools.com/cssref/default.asp)  
+* [JQuery](http://jquery.com/)  
+* [Image Place Holders](http://placehold.it/)  
+* [Web Style Guide Free Online Book](http://webstyleguide.com/wsg3/index.html)  
