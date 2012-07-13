@@ -1,0 +1,171 @@
+/* ============================== */
+/* ! Fonts                        */
+/* ============================== */
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('../fonts/league-gothic/League_Gothic-webfont.eot');
+    src: url('../fonts/league-gothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league-gothic/League_Gothic-webfont.woff') format('woff'),
+         url('../fonts/league-gothic/League_Gothic-webfont.ttf') format('truetype'),
+         url('../fonts/league-gothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WisdomScriptAIRegular';
+    src: url('../fonts/wisdom-script/wisdom_script-webfont.eot');
+    src: url('../fonts/wisdom-script/wisdom_script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/wisdom-script/wisdom_script-webfont.woff') format('woff'),
+         url('../fonts/wisdom-script/wisdom_script-webfont.ttf') format('truetype'),
+         url('../fonts/wisdom-script/wisdom_script-webfont.svg#WisdomScriptAIRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		background-color: #efefef;
+	}
+	
+	h1, h2 {
+		color:#2b3a42;
+	}
+	
+	.clearfix {
+		clear: both;
+	}
+	
+	#header {
+		border-bottom: solid 1px #a1a1a1;
+	}
+	
+	#header h1 {
+		font: 60px 'LeagueGothicRegular', Arial, sans-serif;
+		text-transform: uppercase;
+		margin-top:30px;
+	}
+	
+	#header h2 {
+		font: 14px 'WisdomScriptAIRegular';
+	}
+	
+	#header img {
+		display:block;
+		margin: 10px 10px 10px 0;
+		float:left;
+	}
+	
+	#header #nav {
+		text-align:right;
+	}
+	
+	#header #nav ul {
+		margin-top:50px;
+	}
+	
+	#header #nav ul li {
+		display:inline;
+		font: 24px 'LeagueGothicRegular', Arial, sans-serif;
+		text-transform: uppercase;
+		margin-left:15px;
+	}
+	
+	#header #nav ul li a {
+		text-decoration:none;
+		color: #2b3a42;
+		
+	}
+	
+	#header #nav ul li a:link {
+		text-decoration:none;
+	}
+	
+	#header #nav ul li a:visited {
+		text-decoration:none;
+	}
+	
+	#header #nav ul li a:hover {
+		text-decoration:none;
+		color: #bdd4de;
+		text-shadow: 2px 2px 0px #2b3a42;
+	}
+	
+	#header #nav ul li a:active {
+		text-decoration:none;
+	}
+	
+	#header #nav ul li a.active {
+		border-bottom: 4px solid #2b3a42;
+	}
+	
+	#callout h1 {
+		font: 114px 'LeagueGothicRegular', Arial, sans-serif;
+		line-height:100%;
+		text-align:center;
+		text-transform:uppercase;
+		color:#bdd4de;
+		text-shadow: 3px 3px 0px #2b3a42;
+		margin:20px 0 0 0;
+	}
+	
+	#callout h1 span.word10 {
+		font-family: 'WisdomScriptAIRegular';
+		text-transform:capitalize;
+		color:#2b3a42;
+		text-shadow:none;
+	}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+	
+	#header {
+		text-align:center;
+	}
+	
+	#header h1 {
+		margin-top:0px;
+	}
+	
+	#header img {
+		margin-top:0px;
+		float:none;
+		margin: 0 auto;
+	}
+	
+	#header #nav {
+		text-align:center;
+	}
+	
+	#header #nav ul {
+		margin:30px 0 20px 0px;
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
