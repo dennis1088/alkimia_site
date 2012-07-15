@@ -41,7 +41,6 @@ h1, h2 {
 
 h2 {
 	font: 48px 'LeagueGothicRegular', Arial, sans-serif;
-	text-align:left;
 }
 
 h3 {
@@ -49,8 +48,16 @@ h3 {
 	text-transform:uppercase;
 }
 
+p {
+	line-height:1.8em;
+}
+
 .clearfix {
 	clear: both;
+}
+
+.section-heading {
+	text-align:left;
 }
 
 .section-heading span.word1 {
@@ -166,6 +173,31 @@ a.thumbnail:hover {
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
      -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
           box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+.details {
+	text-align:center;
+}
+
+.date {
+	text-align:center;
+	background-color: #bdd4de;
+	display:inline-block;
+	width:90px;
+	height:75px;
+	-webkit-border-radius: 45px;
+	-moz-border-radius: 45px;
+	border-radius: 45px;
+	padding-top:15px;
+	margin-top: 20px;
+}
+
+.date .day {
+	font: 30px 'LeagueGothicRegular', Arial, sans-serif;
+}
+
+.date .number {
+	font: 18px 'WisdomScriptAIRegular';
 }
 
 
