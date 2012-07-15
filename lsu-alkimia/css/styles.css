@@ -58,6 +58,7 @@ p {
 
 .section-heading {
 	text-align:left;
+	margin:40px 0 40px 0;
 }
 
 .section-heading span.word1 {
@@ -155,6 +156,14 @@ p {
 	text-align:center;
 }
 
+#events h3 {
+	margin-top:20px;
+}
+
+.event {
+	margin-bottom:20px;
+}
+
 .thumbnail {
 	display:block;
 	padding:4px 4px 2px 4px;
@@ -177,6 +186,10 @@ a.thumbnail:hover {
 
 .details {
 	text-align:center;
+}
+
+.content, .details {
+	margin-bottom:40px;
 }
 
 .date {
