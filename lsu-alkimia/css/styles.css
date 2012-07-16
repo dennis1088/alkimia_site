@@ -275,6 +275,11 @@ a.thumbnail:hover {
 
 #newsletter input::-webkit-input-placeholder {color: #FFF;}
 
+#page-header {
+	text-align:center;
+	margin:40px 0;
+}
+
 
 /* ============================= */
 /* ! Layout for mobile version   */
