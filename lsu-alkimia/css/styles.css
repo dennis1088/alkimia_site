@@ -213,6 +213,68 @@ a.thumbnail:hover {
 	font: 18px 'WisdomScriptAIRegular';
 }
 
+#newsletter {
+	background-color:#bdd4de;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	padding:10px;
+	border:solid 1px #89b2c4;
+}
+
+#newsletter h2 {
+	margin:0px;
+}
+
+#newsletter h2 .word2 {
+	color:white;
+}
+
+#newsletter input[type="email"] {
+	font-family: 'WisdomScriptAIRegular';
+	background-color:#89b2c4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	border:solid 1px #6fa1b7;
+	color: white;
+	padding:6px;
+	font-size:40px;
+	margin-bottom:10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width:100%;
+}
+
+#newsletter button {
+	background-color: #e45033;
+	border:1px solid #bd2304;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	background: rgb(236,104,66); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(236,104,66,1) 0%, rgba(220,56,36,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,104,66,1)), color-stop(100%,rgba(220,56,36,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec6842', endColorstr='#dc3824',GradientType=0 ); /* IE6-9 */
+
+	font-family: Arial;
+	font-weight:bold;
+	font-size:16px;
+	padding:10px 0px;
+	width:140px;
+	color:white;
+	
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.45);
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.30);
+}
+
+#newsletter input::-webkit-input-placeholder {color: #FFF;}
+
 
 /* ============================= */
 /* ! Layout for mobile version   */
