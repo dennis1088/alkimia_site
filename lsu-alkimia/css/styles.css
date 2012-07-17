@@ -304,15 +304,19 @@ a.thumbnail:hover {
 	font-size:50px;
 	color:#bdd4de;
 	text-shadow: 4px 4px 0px #2b3a42;
+	margin-right:20px;
 }
 
 #footer #twitter ul {
-	margin-left: 80px;
 }
 
 #footer #twitter li {
 	list-style:none;
 	margin-bottom:15px;
+}
+
+#footer h2 {
+	margin:0 0 0 0;
 }
 
 /* ============================= */
