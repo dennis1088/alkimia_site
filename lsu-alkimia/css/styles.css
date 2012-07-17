@@ -285,18 +285,34 @@ a.thumbnail:hover {
 	display:block;
 }
 
-#footer p {
+#footer #contact p {
 	margin-bottom:10px;
 }
 
-#footer address {
-	margin-left:20px;
+#footer #contact address {
+	margin-left:30px;
 	padding-bottom:10px;
 }
 
-#footer i {
+#footer #contact i {
 	float:left;
 	font-size:20px;
+}
+
+#footer #twitter i {
+	float:left;
+	font-size:50px;
+	color:#bdd4de;
+	text-shadow: 4px 4px 0px #2b3a42;
+}
+
+#footer #twitter ul {
+	margin-left: 80px;
+}
+
+#footer #twitter li {
+	list-style:none;
+	margin-bottom:15px;
 }
 
 /* ============================= */
