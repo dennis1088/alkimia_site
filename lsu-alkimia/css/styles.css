@@ -285,11 +285,18 @@ a.thumbnail:hover {
 	display:block;
 }
 
-#footer address {
+#footer p {
+	margin-bottom:10px;
+}
 
+#footer address {
+	margin-left:20px;
+	padding-bottom:10px;
 }
 
 #footer i {
+	float:left;
+	font-size:20px;
 }
 
 /* ============================= */
