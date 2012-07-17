@@ -280,6 +280,12 @@ a.thumbnail:hover {
 	margin:40px 0;
 }
 
+#footer {
+	border-top:1px solid #a1a1a1;
+	padding:30px 0 30px 0;
+	display:block;
+}
+
 
 /* ============================= */
 /* ! Layout for mobile version   */
