@@ -24,7 +24,6 @@
 	font-style: normal;
 }
 
-
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
@@ -285,6 +284,19 @@ a.thumbnail:hover {
 	padding:30px 0 30px 0;
 	display:block;
 }
+
+#footer address {
+
+}
+
+#footer i {
+}
+
+/* ============================= */
+/* ! Icon font styles            */
+/* ============================= */
+
+
 
 
 /* ============================= */
