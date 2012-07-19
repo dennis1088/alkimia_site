@@ -1,0 +1,375 @@
+/* ============================== */
+/* ! Fonts                        */
+/* ============================== */
+
+@font-face {
+	font-family: 'LeagueGothicRegular';
+	src: url('/fonts/league-gothic/League_Gothic-webfont.eot');
+	src: url('/fonts/league-gothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/league-gothic/League_Gothic-webfont.woff') format('woff'),
+	url('/fonts/league-gothic/League_Gothic-webfont.ttf') format('truetype'),
+	url('/fonts/league-gothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WisdomScriptAIRegular';
+	src: url('/fonts/wisdom-script/wisdom_script-webfont.eot');
+	src: url('/fonts/wisdom-script/wisdom_script-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/wisdom-script/wisdom_script-webfont.woff') format('woff'),
+	url('/fonts/wisdom-script/wisdom_script-webfont.ttf') format('truetype'),
+	url('/fonts/wisdom-script/wisdom_script-webfont.svg#WisdomScriptAIRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+
+body {
+	background-color: #efefef;
+	font: 14px 'Georgia', Arial, serif;
+}
+
+h1, h2 {
+	color:#2b3a42;
+}
+
+h2 {
+	font: 48px 'LeagueGothicRegular', Arial, sans-serif;
+}
+
+h3 {
+	font: 30px 'LeagueGothicRegular', Arial, sans-serif;
+	text-transform:uppercase;
+}
+
+p {
+	line-height:1.8em;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.section-heading {
+	text-align:left;
+	margin:40px 0 40px 0;
+}
+
+.section-heading span.word1 {
+	text-transform:uppercase;
+}
+
+.section-heading span.word2 {
+	font-family: 'WisdomScriptAIRegular';
+	color:#bdd4de;
+	text-shadow: 2px 2px 0px #2b3a42;
+	margin-left: -20px;
+}
+
+#header {
+	border-bottom: solid 1px #a1a1a1;
+}
+
+#header h1 {
+	font: 200px 'LeagueGothicRegular', Arial, sans-serif;
+	text-transform: uppercase;
+	margin-top:20px;
+}
+
+#header h2 {
+	font: 14px 'WisdomScriptAIRegular';
+}
+
+#header img {
+	display:block;
+	margin: 10px 10px 10px 0;
+	float:left;
+}
+
+#header #nav {
+	text-align:right;
+}
+
+#header #nav ul {
+	margin-top:50px;
+}
+
+#header #nav ul li {
+	display:inline;
+	font: 24px 'LeagueGothicRegular', Arial, sans-serif;
+	text-transform: uppercase;
+	margin-left:15px;
+}
+
+#header #nav ul li a {
+	text-decoration:none;
+	color: #2b3a42;
+
+}
+
+#header #nav ul li a:link {
+	text-decoration:none;
+}
+
+#header #nav ul li a:visited {
+	text-decoration:none;
+}
+
+#header #nav ul li a:hover {
+	text-decoration:none;
+	color: #bdd4de;
+	text-shadow: 2px 2px 0px #2b3a42;
+}
+
+#header #nav ul li a:active {
+	text-decoration:none;
+}
+
+#header #nav ul li a.active {
+	border-bottom: 4px solid #2b3a42;
+}
+
+#callout h1 {
+	font: 114px 'LeagueGothicRegular', Arial, sans-serif;
+	line-height:100%;
+	text-align:center;
+	text-transform:uppercase;
+	color:#bdd4de;
+	text-shadow: 3px 3px 0px #2b3a42;
+	margin:20px 0 0 0;
+}
+
+#callout h1 span.word10 {
+	font-family: 'WisdomScriptAIRegular';
+	text-transform:capitalize;
+	color:#2b3a42;
+	text-shadow:none;
+}
+
+#events {
+	text-align:center;
+}
+
+#events h3 {
+	margin-top:20px;
+}
+
+.event {
+	margin-bottom:20px;
+}
+
+.thumbnail {
+	display:block;
+	padding:4px 4px 2px 4px;
+	border:1px solid #a1a1a1;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	background-color:#fff;
+}
+
+a.thumbnail:hover {
+  border-color: #0088cc;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+     -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+          box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+.details {
+	text-align:center;
+}
+
+.content, .details {
+	margin-bottom:40px;
+}
+
+.date {
+	text-align:center;
+	background-color: #bdd4de;
+	display:inline-block;
+	width:90px;
+	height:75px;
+	-webkit-border-radius: 45px;
+	-moz-border-radius: 45px;
+	border-radius: 45px;
+	padding-top:15px;
+	margin-top: 20px;
+}
+
+.date .day {
+	font: 30px 'LeagueGothicRegular', Arial, sans-serif;
+}
+
+.date .number {
+	font: 18px 'WisdomScriptAIRegular';
+}
+
+#newsletter {
+	background-color:#bdd4de;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	padding:10px;
+	border:solid 1px #89b2c4;
+}
+
+#newsletter h2 {
+	margin:0px;
+}
+
+#newsletter h2 .word2 {
+	color:white;
+}
+
+#newsletter input[type="email"] {
+	font-family: 'WisdomScriptAIRegular';
+	background-color:#89b2c4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	border:solid 1px #6fa1b7;
+	color: white;
+	padding:6px;
+	font-size:40px;
+	margin-bottom:10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width:100%;
+}
+
+#newsletter button {
+	background-color: #e45033;
+	border:1px solid #bd2304;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	background: rgb(236,104,66); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(236,104,66,1) 0%, rgba(220,56,36,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,104,66,1)), color-stop(100%,rgba(220,56,36,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(236,104,66,1) 0%,rgba(220,56,36,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec6842', endColorstr='#dc3824',GradientType=0 ); /* IE6-9 */
+
+	font-family: Arial;
+	font-weight:bold;
+	font-size:16px;
+	padding:10px 0px;
+	width:140px;
+	color:white;
+	
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.45);
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.30);
+}
+
+#newsletter input::-webkit-input-placeholder {color: #FFF;}
+
+#page-header {
+	text-align:center;
+	margin:40px 0;
+}
+
+#footer {
+	border-top:1px solid #a1a1a1;
+	padding:30px 0 30px 0;
+	display:block;
+}
+
+#footer #right-footer p {
+	margin-bottom:10px;
+}
+
+#footer #right-footer address {
+	margin-left:30px;
+	padding-bottom:10px;
+}
+
+#footer #right-footer i {
+	float:left;
+	font-size:20px;
+}
+
+#footer #left-footer i {
+	float:left;
+	font-size:50px;
+	color:#bdd4de;
+	text-shadow: 4px 4px 0px #2b3a42;
+	margin-right:20px;
+}
+
+#footer #left-footer ul {
+}
+
+#footer #left-footer li {
+	list-style:none;
+	margin-bottom:15px;
+}
+
+#footer h2 {
+	margin:0 0 0 0;
+}
+
+/* ============================= */
+/* ! Icon font styles            */
+/* ============================= */
+
+
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+
+	}
+
+	#header {
+		text-align:center;
+	}
+
+	#header h1 {
+		margin-top: 0px;
+	}
+
+	#header img {
+		margin-top:0px;
+		float:none;
+		margin: 0 auto;
+	}
+
+	#header #nav {
+		text-align:center;
+	}
+
+	#header #nav ul {
+		margin:30px 0 20px 0px;
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+background: url(logo2x.jpg) no-repeat;
+background-size: 212px 303px;
+}*/
+
+}
